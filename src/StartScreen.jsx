@@ -82,7 +82,7 @@ function StartScreen() {
       <div className="ticks"></div>
       <section id="spacer">
         <div id="credits">
-          <h5>by Ruki, Feliz & Stoney</h5>
+          <h5>by Feliz, Ruki & Stoney</h5>
         </div>
       </section>
     </>
