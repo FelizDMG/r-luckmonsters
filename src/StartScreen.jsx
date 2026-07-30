@@ -33,7 +33,7 @@ function StartScreen() {
           <img src={heroImg} className="base" width="170" height="179" alt="" />
         </div>
         <div>
-          <h1>Lucky Monsters</h1>
+          <h1>Luck Monsters</h1>
           <p>
             Thanks for Playtesting!
           </p>
@@ -80,7 +80,11 @@ function StartScreen() {
       </section>
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+      <section id="spacer">
+        <div id="credits">
+          <h5>by Feliz, Stoney & Ruki</h5>
+        </div>
+      </section>
     </>
   )
 }
