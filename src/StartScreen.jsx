@@ -45,7 +45,7 @@ function StartScreen() {
       <section id="next-steps">
         <div id="hosting">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#user-host"></use>
+            <use href={`${import.meta.env.BASE_URL}icons.svg#user-host`}></use>
           </svg>
           <h2>Host a Game</h2>
           <p>Create a server id</p>
@@ -66,7 +66,7 @@ function StartScreen() {
 
         <div id="joining">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#user-join"></use>
+            <use href={`${import.meta.env.BASE_URL}icons.svg#user-join`}></use>
           </svg>
           <h2>Join a Game</h2>
           <p>Type a friends server id</p>
